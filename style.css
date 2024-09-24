@@ -1,0 +1,425 @@
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border;
+    font-family: 'Merriweather' , serif;
+
+
+}
+.all-content{
+    background: rgb(1, 1, 18);
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #030122;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+    height:10px;
+}
+
+/*navbar start*/
+#navbar{
+    background-color: #021018;
+}
+#logo img{
+    border-radius:10px ;
+    width: 160px;
+    margin-left:40px;
+
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-item{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: rgb(235, 229, 229);
+    color:white;
+    border: 1px solid white;
+
+}
+/*navbar end*/
+
+/*home section start*/
+#home{
+    width:100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0, 0, 0,0.3),rgba(0, 0, 0,0.3)), url(./images/The\ Tech\ Revolution\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+}
+#home .content h3{
+    font-size: 50px;
+    color: white;
+
+}
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+#btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight:bold;
+    border:none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #b2744c;
+    color: white;
+
+}
+/*home section end*/
+
+/*about section begin*/
+/* About Section */
+#about {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/The\ Tech\ Revolution\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about .container {
+    padding-top: 1px;
+    border-top: 20px solid #fdfdfd;
+    border-radius: 15px; /* Round rectangle border */
+    background-color: rgba(0, 0, 0, 0.7); /* Black background for the container */
+    padding: 20px;
+    color: white; /* Text color white */
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(247, 247, 248);
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline; /* Underline the "About Us" */
+    text-underline-position: below;
+}
+
+.heading span {
+    color: #d5dee8;
+}
+
+#about .card img {
+    border-radius: 70px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #e2e3e4;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: #68aeda;
+    color: rgb(240, 239, 246);
+}
+#about .text-box {
+    background-color: rgba(238, 234, 234, 0.7); /* Black background */
+    padding: 20px;
+    text-emphasis-color: rgb(29, 29, 60);
+    color: white; /* White text color */
+    border-radius: 15px; /* Optional rounded corners for the text box */
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 762px) {
+    #about p {
+        font-size: 15px;
+    }
+    #about {
+        height: 120vh;
+    }
+}
+
+
+/*about section end*/
+/*Top cards section begins*/
+#top-cards {
+    width: 100%;
+    height: 92vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/The\ Tech\ Revolution\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    transition: 0.5s;
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+.headings2 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.headings2 span {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#top-cards .container {
+    margin-top: 30px;
+}
+
+#top-cards .card {
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    overflow: hidden; /* Ensures that the image respects the card's rounded corners */
+}
+
+#top-cards:hover {
+    transform: translateY(-10px);
+}
+
+#top-cards .card-img {
+    width: 100%; /* Image takes up full width of card */
+    height: 100%; /* Image takes up full height of card */
+    object-fit: cover; /* Ensures image scales properly to cover entire card without stretching */
+    border-radius: 10px; /* Adds rounded corners to the image, matching the card */
+}
+/*Top cards section ends*/
+
+/*menu  section begins*/
+#menu{
+    width: 100%;
+    margin-top: 0px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/The Tech Revolution (5).png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: rgb(22, 1, 1); /* Optional: Ensure text is readable */
+        padding: 20px; /* Optional: Add some padding for better spacing */
+    
+    
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #fdfdfd;
+}
+#container2{
+    margin-top: 30px;
+}
+#menu .card{
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+
+}
+.star i{
+    color:#070400;
+
+}
+#menu h3{
+    text-align: center;
+    color: #382511;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+#menu p{
+    font-size: 16px;
+    color: #b2744c;
+    padding-top: 10PX;
+}
+#menu p span{
+    float: right;
+    cursor: pointer;
+
+}
+/*menu  section end*/
+/* Product Section Styles */
+#product {
+    width: 100%;
+}
+
+.heading4 {
+    text-align: center;
+    color: #b2744c;
+    font-size: 40px;
+    padding-top: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid #fdfdfd;
+}
+
+#container3 {
+    margin-top: 30px;
+}
+
+#product h3 {
+    text-align: center;
+    color: #010a13;
+    font-size: 23px;
+}
+
+#product p {
+    color: #b2744c;
+    padding-top: 10px;
+}
+
+#product p span {
+    float: right;
+    cursor: pointer;
+}
+
+/* Gallery Section Styles */
+.heading5 {
+    text-align: center;
+    color: #b2744c;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid #fdfdfd;
+    margin-bottom: 20px;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Ensure spacing is correct for both sections */
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+/*Begin*/
+/* Contact Section Styles */
+#contact {
+    padding: 60px ;
+    background-color: #f9f9f9;
+    height: 90vh;
+}
+
+.heading6 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #b2744c;
+    margin-bottom: 20px;
+}
+
+.heading6 span {
+    color: #010a13;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#contact .form-control {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+#contact .form-control:focus {
+    border-color: #b2744c;
+    box-shadow: none;
+}
+
+#contact-btn {
+    background-color: #b2744c;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-btn:hover {
+    background-color: #d28b60;
+}
+
+/* Info Section */
+#col {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#col h1 {
+    font-size: 30px;
+    color: #b2744c;
+    margin-bottom: 20px;
+}
+
+#col p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#col i {
+    margin-right: 10px;
+    color: #b2744c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #contact .col-md-7, #contact .col-md-5 {
+        margin-bottom: 30px;
+    }
+
+    #col {
+        margin-top: 20px;
+    }
+}
+
+
+
